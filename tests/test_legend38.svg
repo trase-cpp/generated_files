@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 25</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
+<rect x="80" y="60" width="640" height="480" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="95.3458" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="203.082" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.1</text>
+<text x="310.819" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.2</text>
+<text x="418.556" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">3.3</text>
+<text x="526.292" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">4.4</text>
+<text x="634.029" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">5.5</text>
+<text x="75" y="492.025" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">-42</text>
+<text x="75" y="396.084" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">-21</text>
+<text x="75" y="300.143" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="75" y="204.202" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">21</text>
+<text x="75" y="108.262" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">42</text>
+<path d=" M 95.345772 545.000000 L 95.345772 540.000000 M 203.082443 545.000000 L 203.082443 540.000000 M 310.819122 545.000000 L 310.819122 540.000000 M 418.555786 545.000000 L 418.555786 540.000000 M 526.292480 545.000000 L 526.292480 540.000000 M 634.029114 545.000000 L 634.029114 540.000000 M 75.000000 492.024597 L 80.000000 492.024597 M 75.000000 396.083832 L 80.000000 396.083832 M 75.000000 300.143066 L 80.000000 300.143066 M 75.000000 204.202301 L 80.000000 204.202301 M 75.000000 108.261536 L 80.000000 108.261536" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 95.345772 60.000000 L 95.345772 540.000000 M 203.082443 60.000000 L 203.082443 540.000000 M 310.819122 60.000000 L 310.819122 540.000000 M 418.555786 60.000000 L 418.555786 540.000000 M 526.292480 60.000000 L 526.292480 540.000000 M 634.029114 60.000000 L 634.029114 540.000000 M 80.000000 492.024597 L 720.000000 492.024597 M 80.000000 396.083832 L 720.000000 396.083832 M 80.000000 300.143066 L 720.000000 300.143066 M 80.000000 204.202301 L 720.000000 204.202301 M 80.000000 108.261536 L 720.000000 108.261536" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<rect x="95.23" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<animate attributeName="x" repeatCount="indefinite" begin ="0s" dur="0s" values="95.229019" keyTimes="-nan"/>
+<animate attributeName="y" repeatCount="indefinite" begin ="0s" dur="0s" values="185.927856" keyTimes="-nan"/>
+<animate attributeName="width" repeatCount="indefinite" begin ="0s" dur="0s" values="152.290298" keyTimes="-nan"/>
+<animate attributeName="height" repeatCount="indefinite" begin ="0s" dur="0s" values="114.215210" keyTimes="-nan"/>
+</rect>
+<rect x="247.5" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<animate attributeName="x" repeatCount="indefinite" begin ="0s" dur="0s" values="247.519318" keyTimes="-nan"/>
+<animate attributeName="y" repeatCount="indefinite" begin ="0s" dur="0s" values="185.927856" keyTimes="-nan"/>
+<animate attributeName="width" repeatCount="indefinite" begin ="0s" dur="0s" values="152.290314" keyTimes="-nan"/>
+<animate attributeName="height" repeatCount="indefinite" begin ="0s" dur="0s" values="114.215210" keyTimes="-nan"/>
+</rect>
+<rect x="399.8" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<animate attributeName="x" repeatCount="indefinite" begin ="0s" dur="0s" values="399.809631" keyTimes="-nan"/>
+<animate attributeName="y" repeatCount="indefinite" begin ="0s" dur="0s" values="185.927856" keyTimes="-nan"/>
+<animate attributeName="width" repeatCount="indefinite" begin ="0s" dur="0s" values="152.290222" keyTimes="-nan"/>
+<animate attributeName="height" repeatCount="indefinite" begin ="0s" dur="0s" values="114.215210" keyTimes="-nan"/>
+</rect>
+<rect x="552.1" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<animate attributeName="x" repeatCount="indefinite" begin ="0s" dur="0s" values="552.099854" keyTimes="-nan"/>
+<animate attributeName="y" repeatCount="indefinite" begin ="0s" dur="0s" values="185.927856" keyTimes="-nan"/>
+<animate attributeName="width" repeatCount="indefinite" begin ="0s" dur="0s" values="152.290344" keyTimes="-nan"/>
+<animate attributeName="height" repeatCount="indefinite" begin ="0s" dur="0s" values="114.215210" keyTimes="-nan"/>
+</rect>
+<rect x="702.5" y="62.25" width="15.31" height="13.78" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<text x="686.667" y="60" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">histogram</text>
+<path d=" M 720.000000 87.000000 L 700.000000 87.000000" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000" fill-opacity="0"/>
+<text x="686.667" y="78" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">line</text>
+<circle cx="705" cy="105" r="4.5" fill="#440154" fill-opacity="1.000000" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="0.000000">
+</circle>
+<circle cx="715" cy="105" r="4.5" fill="#440154" fill-opacity="1.000000" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="0.000000">
+</circle>
+<text x="686.667" y="96" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">points</text>
+<path stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000" fill-opacity="0" d=" M 95.345772 300.143066 L 101.496559 285.807068 L 107.647339 271.527588 L 113.798126 257.360901 L 119.948914 243.362915 L 126.099693 229.588791 L 132.250473 216.092819 L 138.401276 202.928207 L 144.552048 190.146881 L 150.702835 177.799225 L 156.853607 165.933929 L 163.004395 154.597733 L 169.155182 143.835358 L 175.305969 133.689240 L 181.456757 124.199356 L 187.607544 115.403152 L 193.758331 107.335297 L 199.909119 100.027603 L 206.059906 93.508850 L 212.210693 87.804764 L 218.361465 82.937866 L 224.512253 78.927277 L 230.663025 75.788849 L 236.813828 73.534943 L 242.964600 72.174454 L 249.115387 71.712738 L 255.266159 72.151627 L 261.416962 73.489372 L 267.567749 75.720726 L 273.718536 78.836845 L 279.869324 82.825508 L 286.020111 87.670937 L 292.170898 93.354057 L 298.321655 99.852432 L 304.472443 107.140472 L 310.623230 115.189423 L 316.774017 123.967590 L 322.924805 133.440308 L 329.075623 143.570297 L 335.226379 154.317535 L 341.377167 165.639709 L 347.527924 177.492157 L 353.678741 189.828217 L 359.829529 202.599152 L 365.980286 215.754639 L 372.131073 229.242844 L 378.281860 243.010651 L 384.432648 257.003601 L 390.583435 271.166687 L 396.734192 285.443970 L 402.885010 299.779266 L 409.035797 314.115967 L 415.186554 328.397552 L 421.337341 342.567749 L 427.488159 356.570801 L 433.638947 370.351288 L 439.789734 383.854950 L 445.940521 397.028625 L 452.091309 409.820282 L 458.242065 422.179535 L 464.392853 434.057648 L 470.543640 445.407837 L 476.694458 456.185272 L 482.845245 466.347534 L 488.996002 475.854584 L 495.146790 484.668793 L 501.297577 492.755463 L 507.448334 500.082855 L 513.599121 506.621918 L 519.749878 512.346924 L 525.900635 517.235352 L 532.051453 521.267822 L 538.202271 524.428589 L 544.353027 526.705017 L 550.503845 528.088257 L 556.654663 528.572754 L 562.805420 528.156738 L 568.956177 526.841675 L 575.106995 524.632935 L 581.257812 521.539124 L 587.408569 517.572388 L 593.559326 512.748535 L 599.710083 507.086395 L 605.860901 500.608398 L 612.011719 493.339966 L 618.162415 485.310028 L 624.313232 476.549866 L 630.464111 467.094238 L 636.614807 456.980560 L 642.765625 446.248383 L 648.916382 434.940308 L 655.067200 423.100647 L 661.217957 410.776306 L 667.368774 398.015808 L 673.519531 384.869415 L 679.670349 371.388885 L 685.821106 357.627686 L 691.971924 343.639648 L 698.122620 329.480316 L 704.273438 315.205109">
+ <animate attributeName="d" repeatCount="indefinite" begin ="0s" dur="0s" values=" M 95.345772 300.143066 L 101.496559 285.807068 L 107.647339 271.527588 L 113.798126 257.360901 L 119.948914 243.362915 L 126.099693 229.588791 L 132.250473 216.092819 L 138.401276 202.928207 L 144.552048 190.146881 L 150.702835 177.799225 L 156.853607 165.933929 L 163.004395 154.597733 L 169.155182 143.835358 L 175.305969 133.689240 L 181.456757 124.199356 L 187.607544 115.403152 L 193.758331 107.335297 L 199.909119 100.027603 L 206.059906 93.508850 L 212.210693 87.804764 L 218.361465 82.937866 L 224.512253 78.927277 L 230.663025 75.788849 L 236.813828 73.534943 L 242.964600 72.174454 L 249.115387 71.712738 L 255.266159 72.151627 L 261.416962 73.489372 L 267.567749 75.720726 L 273.718536 78.836845 L 279.869324 82.825508 L 286.020111 87.670937 L 292.170898 93.354057 L 298.321655 99.852432 L 304.472443 107.140472 L 310.623230 115.189423 L 316.774017 123.967590 L 322.924805 133.440308 L 329.075623 143.570297 L 335.226379 154.317535 L 341.377167 165.639709 L 347.527924 177.492157 L 353.678741 189.828217 L 359.829529 202.599152 L 365.980286 215.754639 L 372.131073 229.242844 L 378.281860 243.010651 L 384.432648 257.003601 L 390.583435 271.166687 L 396.734192 285.443970 L 402.885010 299.779266 L 409.035797 314.115967 L 415.186554 328.397552 L 421.337341 342.567749 L 427.488159 356.570801 L 433.638947 370.351288 L 439.789734 383.854950 L 445.940521 397.028625 L 452.091309 409.820282 L 458.242065 422.179535 L 464.392853 434.057648 L 470.543640 445.407837 L 476.694458 456.185272 L 482.845245 466.347534 L 488.996002 475.854584 L 495.146790 484.668793 L 501.297577 492.755463 L 507.448334 500.082855 L 513.599121 506.621918 L 519.749878 512.346924 L 525.900635 517.235352 L 532.051453 521.267822 L 538.202271 524.428589 L 544.353027 526.705017 L 550.503845 528.088257 L 556.654663 528.572754 L 562.805420 528.156738 L 568.956177 526.841675 L 575.106995 524.632935 L 581.257812 521.539124 L 587.408569 517.572388 L 593.559326 512.748535 L 599.710083 507.086395 L 605.860901 500.608398 L 612.011719 493.339966 L 618.162415 485.310028 L 624.313232 476.549866 L 630.464111 467.094238 L 636.614807 456.980560 L 642.765625 446.248383 L 648.916382 434.940308 L 655.067200 423.100647 L 661.217957 410.776306 L 667.368774 398.015808 L 673.519531 384.869415 L 679.670349 371.388885 L 685.821106 357.627686 L 691.971924 343.639648 L 698.122620 329.480316 L 704.273438 315.205109" keyTimes="-nan"/>
+</path>
+<circle cx="95.35" cy="300.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(101.345772,294.143066,'(0.000000,0.000000)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="101.5" cy="285.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(107.496559,279.807068,'(0.062800,3.137937)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="107.6" cy="271.5" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(113.647339,265.527588,'(0.125600,6.263502)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="113.8" cy="257.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(119.798126,251.360901,'(0.188400,9.364372)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="119.9" cy="243.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(125.948914,237.362915,'(0.251200,12.428325)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="126.1" cy="229.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(132.099701,223.588791,'(0.314000,15.443275)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="132.3" cy="216.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(138.250473,210.092819,'(0.376800,18.397343)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="138.4" cy="202.9" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(144.401276,196.928207,'(0.439600,21.278877)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="144.6" cy="190.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(150.552048,184.146881,'(0.502400,24.076519)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="150.7" cy="177.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(156.702835,171.799225,'(0.565200,26.779238)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="156.9" cy="165.9" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(162.853607,159.933929,'(0.628000,29.376375)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="163" cy="154.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(169.004395,148.597733,'(0.690800,31.857698)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="169.2" cy="143.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(175.155182,137.835358,'(0.753600,34.213421)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="175.3" cy="133.7" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(181.305969,127.689240,'(0.816400,36.434254)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="181.5" cy="124.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(187.456757,118.199356,'(0.879200,38.511448)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="187.6" cy="115.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(193.607544,109.403152,'(0.942000,40.436806)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="193.8" cy="107.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(199.758331,101.335297,'(1.004800,42.202740)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="199.9" cy="100" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(205.909119,94.027603,'(1.067600,43.802284)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="206.1" cy="93.51" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(212.059906,87.508850,'(1.130400,45.229141)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="212.2" cy="87.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(218.210693,81.804764,'(1.193200,46.477680)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="218.4" cy="82.94" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(224.361465,76.937866,'(1.256000,47.542973)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="224.5" cy="78.93" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(230.512253,72.927277,'(1.318800,48.420830)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="230.7" cy="75.79" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(236.663025,69.788849,'(1.381600,49.107784)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="236.8" cy="73.53" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(242.813828,67.534943,'(1.444400,49.601131)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="243" cy="72.17" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(248.964600,66.174454,'(1.507200,49.898922)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="249.1" cy="71.71" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(255.115387,65.712738,'(1.570000,49.999985)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="255.3" cy="72.15" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(261.266174,66.151627,'(1.632800,49.903919)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="261.4" cy="73.49" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(267.416962,67.489372,'(1.695600,49.611107)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="267.6" cy="75.72" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(273.567749,69.720726,'(1.758400,49.122696)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="273.7" cy="78.84" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(279.718536,72.836845,'(1.821200,48.440624)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="279.9" cy="82.83" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(285.869324,76.825508,'(1.884000,47.567566)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="286" cy="87.67" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(292.020111,81.670937,'(1.946800,46.506973)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="292.2" cy="93.35" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(298.170898,87.354057,'(2.009600,45.263023)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="298.3" cy="99.85" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(304.321655,93.852432,'(2.072400,43.840626)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="304.5" cy="107.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(310.472443,101.140472,'(2.135200,42.245384)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="310.6" cy="115.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(316.623230,109.189423,'(2.198000,40.483589)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="316.8" cy="124" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(322.774017,117.967590,'(2.260800,38.562180)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="322.9" cy="133.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(328.924805,127.440308,'(2.323600,36.488743)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="329.1" cy="143.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(335.075623,137.570297,'(2.386400,34.271439)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="335.2" cy="154.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(341.226379,148.317535,'(2.449200,31.919029)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="341.4" cy="165.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(347.377167,159.639709,'(2.512000,29.440775)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="347.5" cy="177.5" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(353.527924,171.492157,'(2.574800,26.846451)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="353.7" cy="189.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(359.678741,183.828217,'(2.637600,24.146273)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="359.8" cy="202.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(365.829529,196.599152,'(2.700400,21.350904)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="366" cy="215.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(371.980286,209.754639,'(2.763200,18.471363)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="372.1" cy="229.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(378.131073,223.242844,'(2.826000,15.518996)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="378.3" cy="243" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(384.281860,237.010651,'(2.888800,12.505434)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="384.4" cy="257" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(390.432648,251.003601,'(2.951600,9.442580)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="390.6" cy="271.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(396.583435,265.166687,'(3.014400,6.342499)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="396.7" cy="285.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(402.734192,279.443970,'(3.077200,3.217412)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="402.9" cy="299.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(408.885010,293.779266,'(3.140000,0.079627)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="409" cy="314.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(415.035797,308.115967,'(3.202800,-3.058459)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="415.2" cy="328.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(421.186554,322.397552,'(3.265600,-6.184487)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="421.3" cy="342.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(427.337341,336.567749,'(3.328400,-9.286132)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="427.5" cy="356.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(433.488159,350.570801,'(3.391200,-12.351190)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="433.6" cy="370.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(439.638947,364.351288,'(3.454000,-15.367529)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="439.8" cy="383.9" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(445.789734,377.854950,'(3.516800,-18.323280)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="445.9" cy="397" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(451.940521,391.028625,'(3.579600,-21.206804)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="452.1" cy="409.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(458.091309,403.820282,'(3.642400,-24.006706)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="458.2" cy="422.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(464.242065,416.179535,'(3.705200,-26.711962)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="464.4" cy="434.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(470.392853,428.057648,'(3.768000,-29.311905)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="470.5" cy="445.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(476.543640,439.407837,'(3.830800,-31.796286)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="476.7" cy="456.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(482.694458,450.185272,'(3.893600,-34.155315)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="482.8" cy="466.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(488.845245,460.347534,'(3.956400,-36.379677)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="489" cy="475.9" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(494.996002,469.854584,'(4.019200,-38.460621)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="495.1" cy="484.7" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(501.146790,478.668793,'(4.082000,-40.389923)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="501.3" cy="492.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(507.297577,486.755463,'(4.144800,-42.159985)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="507.4" cy="500.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(513.448364,494.082855,'(4.207600,-43.763832)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="513.6" cy="506.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(519.599121,500.621918,'(4.270400,-45.195137)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="519.7" cy="512.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(525.749878,506.346924,'(4.333200,-46.448257)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="525.9" cy="517.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(531.900635,511.235352,'(4.396000,-47.518257)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="532.1" cy="521.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(538.051453,515.267822,'(4.458800,-48.400913)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="538.2" cy="524.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(544.202271,518.428589,'(4.521600,-49.092751)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="544.4" cy="526.7" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(550.353027,520.705017,'(4.584400,-49.591030)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="550.5" cy="528.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(556.503845,522.088257,'(4.647200,-49.893795)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="556.7" cy="528.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(562.654663,522.572754,'(4.710001,-49.999855)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="562.8" cy="528.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(568.805420,522.156738,'(4.772800,-49.908791)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="569" cy="526.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(574.956177,520.841675,'(4.835600,-49.620953)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="575.1" cy="524.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(581.106995,518.632935,'(4.898400,-49.137486)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="581.3" cy="521.5" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(587.257812,515.539124,'(4.961200,-48.460293)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="587.4" cy="517.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(593.408569,511.572388,'(5.024000,-47.592041)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="593.6" cy="512.7" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(599.559326,506.748535,'(5.086800,-46.536156)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="599.7" cy="507.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(605.710083,501.086395,'(5.149600,-45.296803)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="605.9" cy="500.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(611.860901,494.608398,'(5.212400,-43.878864)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="612" cy="493.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(618.011719,487.339966,'(5.275200,-42.287918)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="618.2" cy="485.3" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(624.162415,479.310028,'(5.338000,-40.530281)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="624.3" cy="476.5" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(630.313232,470.549866,'(5.400800,-38.612816)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="630.5" cy="467.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(636.464111,461.094238,'(5.463601,-36.543121)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="636.6" cy="457" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(642.614807,450.980560,'(5.526400,-34.329384)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="642.8" cy="446.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(648.765625,440.248383,'(5.589200,-31.980270)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="648.9" cy="434.9" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(654.916382,428.940308,'(5.652000,-29.505106)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="655.1" cy="423.1" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(661.067200,417.100647,'(5.714800,-26.913580)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="661.2" cy="410.8" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(667.217957,404.776306,'(5.777600,-24.215967)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="667.4" cy="398" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(673.368774,392.015808,'(5.840400,-21.422880)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="673.5" cy="384.9" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(679.519531,378.869415,'(5.903200,-18.545334)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="679.7" cy="371.4" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(685.670349,365.388885,'(5.966001,-15.594649)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="685.8" cy="357.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(691.821106,351.627686,'(6.028800,-12.582527)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="692" cy="343.6" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(697.971924,337.639648,'(6.091600,-9.520751)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="698.1" cy="329.5" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(704.122620,323.480316,'(6.154400,-6.421486)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="704.3" cy="315.2" r="6" fill="#2ca02c" fill-opacity="0.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="3.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');tooltip(710.273438,309.205109,'(6.217200,-3.296858)',18.000000,'Roboto');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');remove_tooltip();">
+</circle>
+<circle cx="95.35" cy="300.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="95.345772" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="300.143066" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="101.5" cy="285.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="101.496559" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="285.807068" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="107.6" cy="271.5" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="107.647339" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="271.527588" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="113.8" cy="257.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="113.798126" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="257.360901" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="119.9" cy="243.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="119.948914" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="243.362915" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="126.1" cy="229.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="126.099693" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="229.588791" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="132.3" cy="216.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="132.250473" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="216.092819" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="138.4" cy="202.9" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="138.401276" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="202.928207" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="144.6" cy="190.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="144.552048" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="190.146881" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="150.7" cy="177.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="150.702835" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="177.799225" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="156.9" cy="165.9" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="156.853607" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="165.933929" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="163" cy="154.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="163.004395" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="154.597733" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="169.2" cy="143.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="169.155182" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="143.835358" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="175.3" cy="133.7" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="175.305969" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="133.689240" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="181.5" cy="124.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="181.456757" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="124.199356" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="187.6" cy="115.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="187.607544" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="115.403152" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="193.8" cy="107.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="193.758331" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="107.335297" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="199.9" cy="100" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="199.909119" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="100.027603" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="206.1" cy="93.51" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="206.059906" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="93.508850" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="212.2" cy="87.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="212.210693" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="87.804764" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="218.4" cy="82.94" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="218.361465" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="82.937866" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="224.5" cy="78.93" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="224.512253" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="78.927277" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="230.7" cy="75.79" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="230.663025" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="75.788849" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="236.8" cy="73.53" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="236.813828" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="73.534943" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="243" cy="72.17" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="242.964600" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="72.174454" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="249.1" cy="71.71" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="249.115387" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="71.712738" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="255.3" cy="72.15" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="255.266159" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="72.151627" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="261.4" cy="73.49" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="261.416962" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="73.489372" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="267.6" cy="75.72" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="267.567749" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="75.720726" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="273.7" cy="78.84" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="273.718536" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="78.836845" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="279.9" cy="82.83" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="279.869324" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="82.825508" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="286" cy="87.67" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="286.020111" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="87.670937" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="292.2" cy="93.35" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="292.170898" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="93.354057" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="298.3" cy="99.85" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="298.321655" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="99.852432" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="304.5" cy="107.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="304.472443" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="107.140472" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="310.6" cy="115.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="310.623230" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="115.189423" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="316.8" cy="124" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="316.774017" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="123.967590" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="322.9" cy="133.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="322.924805" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="133.440308" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="329.1" cy="143.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="329.075623" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="143.570297" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="335.2" cy="154.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="335.226379" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="154.317535" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="341.4" cy="165.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="341.377167" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="165.639709" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="347.5" cy="177.5" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="347.527924" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="177.492157" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="353.7" cy="189.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="353.678741" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="189.828217" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="359.8" cy="202.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="359.829529" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="202.599152" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="366" cy="215.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="365.980286" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="215.754639" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="372.1" cy="229.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="372.131073" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="229.242844" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="378.3" cy="243" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="378.281860" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="243.010651" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="384.4" cy="257" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="384.432648" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="257.003601" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="390.6" cy="271.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="390.583435" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="271.166687" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="396.7" cy="285.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="396.734192" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="285.443970" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="402.9" cy="299.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="402.885010" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="299.779266" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="409" cy="314.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="409.035797" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="314.115967" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="415.2" cy="328.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="415.186554" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="328.397552" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="421.3" cy="342.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="421.337341" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="342.567749" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="427.5" cy="356.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="427.488159" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="356.570801" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="433.6" cy="370.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="433.638947" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="370.351288" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="439.8" cy="383.9" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="439.789734" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="383.854950" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="445.9" cy="397" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="445.940521" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="397.028625" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="452.1" cy="409.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="452.091309" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="409.820282" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="458.2" cy="422.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="458.242065" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="422.179535" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="464.4" cy="434.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="464.392853" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="434.057648" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="470.5" cy="445.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="470.543640" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="445.407837" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="476.7" cy="456.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="476.694458" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="456.185272" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="482.8" cy="466.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="482.845245" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="466.347534" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="489" cy="475.9" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="488.996002" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="475.854584" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="495.1" cy="484.7" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="495.146790" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="484.668793" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="501.3" cy="492.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="501.297577" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="492.755463" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="507.4" cy="500.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="507.448334" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="500.082855" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="513.6" cy="506.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="513.599121" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="506.621918" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="519.7" cy="512.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="519.749878" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="512.346924" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="525.9" cy="517.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="525.900635" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="517.235352" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="532.1" cy="521.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="532.051453" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="521.267822" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="538.2" cy="524.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="538.202271" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="524.428589" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="544.4" cy="526.7" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="544.353027" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="526.705017" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="550.5" cy="528.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="550.503845" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="528.088257" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="556.7" cy="528.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="556.654663" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="528.572754" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="562.8" cy="528.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="562.805420" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="528.156738" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="569" cy="526.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="568.956177" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="526.841675" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="575.1" cy="524.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="575.106995" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="524.632935" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="581.3" cy="521.5" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="581.257812" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="521.539124" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="587.4" cy="517.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="587.408569" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="517.572388" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="593.6" cy="512.7" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="593.559326" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="512.748535" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="599.7" cy="507.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="599.710083" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="507.086395" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="605.9" cy="500.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="605.860901" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="500.608398" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="612" cy="493.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="612.011719" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="493.339966" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="618.2" cy="485.3" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="618.162415" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="485.310028" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="624.3" cy="476.5" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="624.313232" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="476.549866" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="630.5" cy="467.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="630.464111" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="467.094238" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="636.6" cy="457" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="636.614807" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="456.980560" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="642.8" cy="446.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="642.765625" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="446.248383" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="648.9" cy="434.9" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="648.916382" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="434.940308" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="655.1" cy="423.1" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="655.067200" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="423.100647" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="661.2" cy="410.8" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="661.217957" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="410.776306" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="667.4" cy="398" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="667.368774" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="398.015808" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="673.5" cy="384.9" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="673.519531" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="384.869415" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="679.7" cy="371.4" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="679.670349" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="371.388885" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="685.8" cy="357.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="685.821106" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="357.627686" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="692" cy="343.6" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="691.971924" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="343.639648" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="698.1" cy="329.5" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="698.122620" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="329.480316" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+<circle cx="704.3" cy="315.2" r="6" fill="#440154" fill-opacity="1.000000" stroke="#000000" stroke-opacity="0.000000" stroke-width="0.000000" onmouseover="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.784314');" onmouseout="evt.target.setAttribute('fill', '#2ca02c'); evt.target.setAttribute('fill-opacity','0.000000');">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="704.273438" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="315.205109" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="6.000000" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+</svg>

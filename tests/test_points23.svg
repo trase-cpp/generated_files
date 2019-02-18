@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 18</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
+<rect x="80" y="60" width="640" height="480" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="93.2074" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.0988</text>
+<text x="195.408" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.0992</text>
+<text x="297.608" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.0996</text>
+<text x="399.808" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.1</text>
+<text x="502.009" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.1</text>
+<text x="604.209" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.101</text>
+<text x="706.409" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.101</text>
+<text x="75" y="491.766" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.199</text>
+<text x="75" y="395.953" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.2</text>
+<text x="75" y="300.14" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.2</text>
+<text x="75" y="204.328" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.201</text>
+<text x="75" y="108.515" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.201</text>
+<path d=" M 93.207375 545.000000 L 93.207375 540.000000 M 195.407654 545.000000 L 195.407654 540.000000 M 297.607941 545.000000 L 297.607941 540.000000 M 399.808228 545.000000 L 399.808228 540.000000 M 502.008514 545.000000 L 502.008514 540.000000 M 604.208801 545.000000 L 604.208801 540.000000 M 706.409119 545.000000 L 706.409119 540.000000 M 75.000000 491.765839 L 80.000000 491.765839 M 75.000000 395.953064 L 80.000000 395.953064 M 75.000000 300.140289 L 80.000000 300.140289 M 75.000000 204.327515 L 80.000000 204.327515 M 75.000000 108.514740 L 80.000000 108.514740" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 93.207375 60.000000 L 93.207375 540.000000 M 195.407654 60.000000 L 195.407654 540.000000 M 297.607941 60.000000 L 297.607941 540.000000 M 399.808228 60.000000 L 399.808228 540.000000 M 502.008514 60.000000 L 502.008514 540.000000 M 604.208801 60.000000 L 604.208801 540.000000 M 706.409119 60.000000 L 706.409119 540.000000 M 80.000000 491.765839 L 720.000000 491.765839 M 80.000000 395.953064 L 720.000000 395.953064 M 80.000000 300.140289 L 720.000000 300.140289 M 80.000000 204.327515 L 720.000000 204.327515 M 80.000000 108.514740 L 720.000000 108.514740" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<circle cx="399.8" cy="300.1" r="12.99" fill="#440154" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="0s" values="399.809631" keyTimes="-nan"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="0s" values="300.142761" keyTimes="-nan"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="0s" values="12.993147" keyTimes="-nan"/>
+<animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="0s" values="#440154" keyTimes="-nan"/>
+<animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="0s" values="1.000000" keyTimes="-nan"/>
+</circle>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 25</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
+<rect x="80" y="60" width="640" height="480" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="95.3458" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="203.082" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.1</text>
+<text x="310.819" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.2</text>
+<text x="418.556" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">3.3</text>
+<text x="526.292" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">4.4</text>
+<text x="634.029" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">5.5</text>
+<text x="75" y="492.025" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">-42</text>
+<text x="75" y="396.084" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">-21</text>
+<text x="75" y="300.143" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="75" y="204.202" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">21</text>
+<text x="75" y="108.262" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">42</text>
+<path d=" M 95.345772 545.000000 L 95.345772 540.000000 M 203.082443 545.000000 L 203.082443 540.000000 M 310.819122 545.000000 L 310.819122 540.000000 M 418.555786 545.000000 L 418.555786 540.000000 M 526.292480 545.000000 L 526.292480 540.000000 M 634.029114 545.000000 L 634.029114 540.000000 M 75.000000 492.024597 L 80.000000 492.024597 M 75.000000 396.083832 L 80.000000 396.083832 M 75.000000 300.143066 L 80.000000 300.143066 M 75.000000 204.202301 L 80.000000 204.202301 M 75.000000 108.261536 L 80.000000 108.261536" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 95.345772 60.000000 L 95.345772 540.000000 M 203.082443 60.000000 L 203.082443 540.000000 M 310.819122 60.000000 L 310.819122 540.000000 M 418.555786 60.000000 L 418.555786 540.000000 M 526.292480 60.000000 L 526.292480 540.000000 M 634.029114 60.000000 L 634.029114 540.000000 M 80.000000 492.024597 L 720.000000 492.024597 M 80.000000 396.083832 L 720.000000 396.083832 M 80.000000 300.143066 L 720.000000 300.143066 M 80.000000 204.202301 L 720.000000 204.202301 M 80.000000 108.261536 L 720.000000 108.261536" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<rect x="95.23" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="247.5" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="399.8" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="552.1" y="185.9" width="152.3" height="114.2" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="702.5" y="62.25" width="15.31" height="13.78" fill="#1f77b4" fill-opacity="0.784314" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<text x="686.667" y="60" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">histogram</text>
+<path d=" M 720.000000 87.000000 L 700.000000 87.000000" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000" fill-opacity="0"/>
+<text x="686.667" y="78" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">line</text>
+<path d=" M 95.345772 300.143066 L 101.496559 285.807068 L 107.647339 271.527588 L 113.798126 257.360901 L 119.948914 243.362915 L 126.099693 229.588791 L 132.250473 216.092819 L 138.401276 202.928207 L 144.552048 190.146881 L 150.702835 177.799225 L 156.853607 165.933929 L 163.004395 154.597733 L 169.155182 143.835358 L 175.305969 133.689240 L 181.456757 124.199356 L 187.607544 115.403152 L 193.758331 107.335297 L 199.909119 100.027603 L 206.059906 93.508850 L 212.210693 87.804764 L 218.361465 82.937866 L 224.512253 78.927277 L 230.663025 75.788849 L 236.813828 73.534943 L 242.964600 72.174454 L 249.115387 71.712738 L 255.266159 72.151627 L 261.416962 73.489372 L 267.567749 75.720726 L 273.718536 78.836845 L 279.869324 82.825508 L 286.020111 87.670937 L 292.170898 93.354057 L 298.321655 99.852432 L 304.472443 107.140472 L 310.623230 115.189423 L 316.774017 123.967590 L 322.924805 133.440308 L 329.075623 143.570297 L 335.226379 154.317535 L 341.377167 165.639709 L 347.527924 177.492157 L 353.678741 189.828217 L 359.829529 202.599152 L 365.980286 215.754639 L 372.131073 229.242844 L 378.281860 243.010651 L 384.432648 257.003601 L 390.583435 271.166687 L 396.734192 285.443970 L 402.885010 299.779266 L 409.035797 314.115967 L 415.186554 328.397552 L 421.337341 342.567749 L 427.488159 356.570801 L 433.638947 370.351288 L 439.789734 383.854950 L 445.940521 397.028625 L 452.091309 409.820282 L 458.242065 422.179535 L 464.392853 434.057648 L 470.543640 445.407837 L 476.694458 456.185272 L 482.845245 466.347534 L 488.996002 475.854584 L 495.146790 484.668793 L 501.297577 492.755463 L 507.448334 500.082855 L 513.599121 506.621918 L 519.749878 512.346924 L 525.900635 517.235352 L 532.051453 521.267822 L 538.202271 524.428589 L 544.353027 526.705017 L 550.503845 528.088257 L 556.654663 528.572754 L 562.805420 528.156738 L 568.956177 526.841675 L 575.106995 524.632935 L 581.257812 521.539124 L 587.408569 517.572388 L 593.559326 512.748535 L 599.710083 507.086395 L 605.860901 500.608398 L 612.011719 493.339966 L 618.162415 485.310028 L 624.313232 476.549866 L 630.464111 467.094238 L 636.614807 456.980560 L 642.765625 446.248383 L 648.916382 434.940308 L 655.067200 423.100647 L 661.217957 410.776306 L 667.368774 398.015808 L 673.519531 384.869415 L 679.670349 371.388885 L 685.821106 357.627686 L 691.971924 343.639648 L 698.122620 329.480316 L 704.273438 315.205109" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000" fill-opacity="0"/>
+</svg>
