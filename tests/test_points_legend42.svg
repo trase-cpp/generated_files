@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 19</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
+<rect x="80" y="60" width="640" height="480" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="95.229" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="196.756" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.5</text>
+<text x="298.283" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1</text>
+<text x="399.81" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.5</text>
+<text x="501.337" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2</text>
+<text x="602.863" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.5</text>
+<text x="704.39" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">3</text>
+<text x="75" y="539.7" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="75" y="443.82" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.4</text>
+<text x="75" y="347.94" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.8</text>
+<text x="75" y="252.06" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.2</text>
+<text x="75" y="156.18" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.6</text>
+<text x="75" y="60.3004" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2</text>
+<path d=" M 95.229019 545.000000 L 95.229019 540.000000 M 196.755905 545.000000 L 196.755905 540.000000 M 298.282776 545.000000 L 298.282776 540.000000 M 399.809692 545.000000 L 399.809692 540.000000 M 501.336548 545.000000 L 501.336548 540.000000 M 602.863464 545.000000 L 602.863464 540.000000 M 704.390320 545.000000 L 704.390320 540.000000 M 75.000000 539.699951 L 80.000000 539.699951 M 75.000000 443.820038 L 80.000000 443.820038 M 75.000000 347.940125 L 80.000000 347.940125 M 75.000000 252.060181 L 80.000000 252.060181 M 75.000000 156.180267 L 80.000000 156.180267 M 75.000000 60.300354 L 80.000000 60.300354" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 95.229019 60.000000 L 95.229019 540.000000 M 196.755905 60.000000 L 196.755905 540.000000 M 298.282776 60.000000 L 298.282776 540.000000 M 399.809692 60.000000 L 399.809692 540.000000 M 501.336548 60.000000 L 501.336548 540.000000 M 602.863464 60.000000 L 602.863464 540.000000 M 704.390320 60.000000 L 704.390320 540.000000 M 80.000000 539.699951 L 720.000000 539.699951 M 80.000000 443.820038 L 720.000000 443.820038 M 80.000000 347.940125 L 720.000000 347.940125 M 80.000000 252.060181 L 720.000000 252.060181 M 80.000000 156.180267 L 720.000000 156.180267 M 80.000000 60.300354 L 720.000000 60.300354" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<circle cx="95.23" cy="539.7" r="1.571" fill="#46095d" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="298.3" cy="539.7" r="9.186" fill="#2f6a8d" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="501.3" cy="539.7" r="16.8" fill="#32b579" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="704.4" cy="539.7" r="24.41" fill="#f0e51c" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="95.23" cy="300" r="1.571" fill="#ff7f0e" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="298.3" cy="300" r="9.186" fill="#ff7f0e" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="501.3" cy="300" r="16.8" fill="#ff7f0e" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="704.4" cy="300" r="24.41" fill="#ff7f0e" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="95.23" cy="60.3" r="6" fill="#2ca02c" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="298.3" cy="60.3" r="6" fill="#2ca02c" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="501.3" cy="60.3" r="6" fill="#2ca02c" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="704.4" cy="60.3" r="6" fill="#2ca02c" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="705" cy="69" r="4.5" fill="#46095d" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="715" cy="69" r="4.5" fill="#f0e51c" fill-opacity="1.000000" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<text x="686.667" y="60" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">y=0</text>
+<circle cx="705" cy="87" r="4.5" fill="#ff7f0e" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="715" cy="87" r="4.5" fill="#ff7f0e" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<text x="686.667" y="78" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">y=1</text>
+<circle cx="705" cy="105" r="4.5" fill="#2ca02c" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<circle cx="715" cy="105" r="4.5" fill="#2ca02c" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
+</circle>
+<text x="686.667" y="96" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">y=2</text>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 25</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
+<rect x="80" y="60" width="640" height="480" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="95.229" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="193.481" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.5</text>
+<text x="291.733" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1</text>
+<text x="389.984" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.5</text>
+<text x="488.236" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2</text>
+<text x="586.488" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.5</text>
+<text x="684.74" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">3</text>
+<text x="75" y="539.146" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0</text>
+<text x="75" y="448.045" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.4</text>
+<text x="75" y="356.945" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">0.8</text>
+<text x="75" y="265.845" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.2</text>
+<text x="75" y="174.744" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.6</text>
+<text x="75" y="83.644" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2</text>
+<path d=" M 95.229019 545.000000 L 95.229019 540.000000 M 193.480835 545.000000 L 193.480835 540.000000 M 291.732666 545.000000 L 291.732666 540.000000 M 389.984497 545.000000 L 389.984497 540.000000 M 488.236328 545.000000 L 488.236328 540.000000 M 586.488159 545.000000 L 586.488159 540.000000 M 684.739929 545.000000 L 684.739929 540.000000 M 75.000000 539.145508 L 80.000000 539.145508 M 75.000000 448.045227 L 80.000000 448.045227 M 75.000000 356.944916 L 80.000000 356.944916 M 75.000000 265.844604 L 80.000000 265.844604 M 75.000000 174.744324 L 80.000000 174.744324 M 75.000000 83.644043 L 80.000000 83.644043" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 95.229019 60.000000 L 95.229019 540.000000 M 193.480835 60.000000 L 193.480835 540.000000 M 291.732666 60.000000 L 291.732666 540.000000 M 389.984497 60.000000 L 389.984497 540.000000 M 488.236328 60.000000 L 488.236328 540.000000 M 586.488159 60.000000 L 586.488159 540.000000 M 684.739929 60.000000 L 684.739929 540.000000 M 80.000000 539.145508 L 720.000000 539.145508 M 80.000000 448.045227 L 720.000000 448.045227 M 80.000000 356.944916 L 720.000000 356.944916 M 80.000000 265.844604 L 720.000000 265.844604 M 80.000000 174.744324 L 720.000000 174.744324 M 80.000000 83.644043 L 720.000000 83.644043" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<rect x="95.23" y="516.4" width="19.65" height="22.78" fill="#267f8e" fill-opacity="1.000000" stroke="#450458" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="291.7" y="516.4" width="19.65" height="22.78" fill="#355c8c" fill-opacity="1.000000" stroke="#453480" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="488.2" y="516.4" width="19.65" height="22.78" fill="#453480" fill-opacity="1.000000" stroke="#355c8c" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="684.7" y="516.4" width="19.65" height="22.78" fill="#450458" fill-opacity="1.000000" stroke="#267f8e" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="95.23" y="288.6" width="19.65" height="22.78" fill="#267f8e" fill-opacity="1.000000" stroke="#267f8e" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="291.7" y="288.6" width="19.65" height="22.78" fill="#1fa087" fill-opacity="1.000000" stroke="#1fa087" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="488.2" y="288.6" width="19.65" height="22.78" fill="#47c06e" fill-opacity="1.000000" stroke="#47c06e" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="684.7" y="288.6" width="19.65" height="22.78" fill="#f6e620" fill-opacity="1.000000" stroke="#f6e620" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="95.23" y="60.87" width="19.65" height="22.78" fill="#2ca02c" fill-opacity="0.784314" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="291.7" y="60.87" width="19.65" height="22.78" fill="#2ca02c" fill-opacity="0.784314" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="488.2" y="60.87" width="19.65" height="22.78" fill="#2ca02c" fill-opacity="0.784314" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="684.7" y="60.87" width="19.65" height="22.78" fill="#2ca02c" fill-opacity="0.784314" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="700.5" y="64.5" width="9" height="9" fill="#450458" fill-opacity="1.000000" stroke="#450458" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="710.5" y="64.5" width="9" height="9" fill="#267f8e" fill-opacity="1.000000" stroke="#267f8e" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="686.667" y="60" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">y=0</text>
+<rect x="700.5" y="82.5" width="9" height="9" fill="#267f8e" fill-opacity="1.000000" stroke="#267f8e" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<rect x="710.5" y="82.5" width="9" height="9" fill="#f6e620" fill-opacity="1.000000" stroke="#f6e620" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="686.667" y="78" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">y=1</text>
+<rect x="700.5" y="100.5" width="9" height="9" fill="#2ca02c" fill-opacity="0.784314" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="710.5" y="100.5" width="9" height="9" fill="#2ca02c" fill-opacity="0.784314" stroke="#2ca02c" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<text x="686.667" y="96" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="hanging" fill="#000000" fill-opacity="0.784314">y=2</text>
+</svg>

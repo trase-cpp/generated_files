@@ -37,14 +37,14 @@ function remove_tooltip() {
 <path d=" M 83.045792 60.000000 L 83.045792 540.000000 M 192.694824 60.000000 L 192.694824 540.000000 M 302.343842 60.000000 L 302.343842 540.000000 M 411.992859 60.000000 L 411.992859 540.000000 M 521.641907 60.000000 L 521.641907 540.000000 M 631.290894 60.000000 L 631.290894 540.000000 M 80.000000 460.047607 L 720.000000 460.047607 M 80.000000 368.673431 L 720.000000 368.673431 M 80.000000 277.299255 L 720.000000 277.299255 M 80.000000 185.925049 L 720.000000 185.925049 M 80.000000 94.550873 L 720.000000 94.550873" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
 <text x="400" y="564" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">x</text>
 <text x="0" y="0" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="baseline" fill="#000000" fill-opacity="1.000000" transform="matrix(-4.37114e-08 -1 1 -4.37114e-08 48 300)">y</text>
-<rect x="95.23" y="414.4" width="121.8" height="114.2" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<rect x="95.23" y="414.4" width="121.8" height="114.2" fill="#46095d" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
 </rect>
-<rect x="338.9" y="414.4" width="121.8" height="114.2" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<rect x="338.9" y="414.4" width="121.8" height="114.2" fill="#46095d" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
 </rect>
-<rect x="95.23" y="71.71" width="243.7" height="114.2" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<rect x="95.23" y="71.71" width="243.7" height="114.2" fill="#46095d" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
 </rect>
-<rect x="582.6" y="300.1" width="121.8" height="228.4" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<rect x="582.6" y="300.1" width="121.8" height="228.4" fill="#f0e51c" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
 </rect>
-<rect x="460.7" y="71.71" width="243.7" height="228.4" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+<rect x="460.7" y="71.71" width="243.7" height="228.4" fill="#f0e51c" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
 </rect>
 </svg>
