@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 1</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
+<rect x="80" y="60" width="640" height="480" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+</rect>
+<text x="83.0458" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">0.9</text>
+<text x="192.695" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.8</text>
+<text x="302.344" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.7</text>
+<text x="411.993" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">3.6</text>
+<text x="521.642" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">4.5</text>
+<text x="631.291" y="545" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">5.4</text>
+<text x="75" y="460.048" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.6</text>
+<text x="75" y="368.673" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2.4</text>
+<text x="75" y="277.299" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">3.2</text>
+<text x="75" y="185.925" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">4</text>
+<text x="75" y="94.5509" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">4.8</text>
+<path d=" M 83.045792 545.000000 L 83.045792 540.000000 M 192.694824 545.000000 L 192.694824 540.000000 M 302.343842 545.000000 L 302.343842 540.000000 M 411.992859 545.000000 L 411.992859 540.000000 M 521.641907 545.000000 L 521.641907 540.000000 M 631.290894 545.000000 L 631.290894 540.000000 M 75.000000 460.047607 L 80.000000 460.047607 M 75.000000 368.673431 L 80.000000 368.673431 M 75.000000 277.299255 L 80.000000 277.299255 M 75.000000 185.925049 L 80.000000 185.925049 M 75.000000 94.550873 L 80.000000 94.550873" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 83.045792 60.000000 L 83.045792 540.000000 M 192.694824 60.000000 L 192.694824 540.000000 M 302.343842 60.000000 L 302.343842 540.000000 M 411.992859 60.000000 L 411.992859 540.000000 M 521.641907 60.000000 L 521.641907 540.000000 M 631.290894 60.000000 L 631.290894 540.000000 M 80.000000 460.047607 L 720.000000 460.047607 M 80.000000 368.673431 L 720.000000 368.673431 M 80.000000 277.299255 L 720.000000 277.299255 M 80.000000 185.925049 L 720.000000 185.925049 M 80.000000 94.550873 L 720.000000 94.550873" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<text x="400" y="564" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">x</text>
+<text x="0" y="0" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="baseline" fill="#000000" fill-opacity="1.000000" transform="matrix(-4.37114e-08 -1 1 -4.37114e-08 48 300)">y</text>
+<rect x="95.23" y="414.4" width="121.8" height="114.2" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="338.9" y="414.4" width="121.8" height="114.2" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="95.23" y="71.71" width="243.7" height="114.2" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="582.6" y="300.1" width="121.8" height="228.4" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+<rect x="460.7" y="71.71" width="243.7" height="228.4" fill="#440154" fill-opacity="1.000000" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000">
+</rect>
+</svg>
