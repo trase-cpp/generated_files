@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<desc>Figure 12</desc>
+<script>
+function tooltip(x,y,string,size,face) {
+    var txtElem = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    txtElem.setAttributeNS(null,"id","tooltip");
+    txtElem.setAttributeNS(null,"x",x);
+    txtElem.setAttributeNS(null,"y",y);
+    txtElem.setAttributeNS(null,"font-size",size);
+    txtElem.setAttributeNS(null,"font-family",face);
+
+    txtElem.appendChild(document.createTextNode(string))
+    document.documentElement.appendChild(txtElem);
+}
+function remove_tooltip() {
+    var txtElem = document.getElementById("tooltip");
+    document.documentElement.removeChild(txtElem);
+}
+</script>
