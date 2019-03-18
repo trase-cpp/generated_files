@@ -85,19 +85,19 @@ function remove_tooltip() {
 </circle>
 <circle cx="752.2" cy="264.3" r="3" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 </circle>
-<rect x="40" y="30" width="320" height="240" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
+<rect x="440" y="330" width="320" height="240" fill="#c8c8c8" fill-opacity="1.000000" stroke="#c8c8c8" stroke-opacity="1.000000" stroke-width="3.000000">
 </rect>
-<text x="78.0726" y="275" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.2</text>
-<text x="138.989" y="275" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.6</text>
-<text x="199.905" y="275" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2</text>
-<text x="260.821" y="275" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.4</text>
-<text x="321.737" y="275" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.8</text>
-<text x="35" y="241.446" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.2</text>
-<text x="35" y="195.758" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.6</text>
-<text x="35" y="150.071" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2</text>
-<text x="35" y="104.384" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2.4</text>
-<text x="35" y="58.6972" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2.8</text>
-<path d=" M 78.072586 275.000000 L 78.072586 270.000000 M 138.988708 275.000000 L 138.988708 270.000000 M 199.904846 275.000000 L 199.904846 270.000000 M 260.820984 275.000000 L 260.820984 270.000000 M 321.737122 275.000000 L 321.737122 270.000000 M 35.000000 241.445557 L 40.000000 241.445557 M 35.000000 195.758453 L 40.000000 195.758453 M 35.000000 150.071350 L 40.000000 150.071350 M 35.000000 104.384262 L 40.000000 104.384262 M 35.000000 58.697159 L 40.000000 58.697159" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
-<path d=" M 78.072586 30.000000 L 78.072586 270.000000 M 138.988708 30.000000 L 138.988708 270.000000 M 199.904846 30.000000 L 199.904846 270.000000 M 260.820984 30.000000 L 260.820984 270.000000 M 321.737122 30.000000 L 321.737122 270.000000 M 40.000000 241.445557 L 360.000000 241.445557 M 40.000000 195.758453 L 360.000000 195.758453 M 40.000000 150.071350 L 360.000000 150.071350 M 40.000000 104.384262 L 360.000000 104.384262 M 40.000000 58.697159 L 360.000000 58.697159" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
-<path d=" M 47.614510 35.853630 L 199.904831 150.071381 L 352.195160 264.289124" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000" fill-opacity="0"/>
+<text x="478.073" y="575" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.2</text>
+<text x="538.989" y="575" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">1.6</text>
+<text x="599.905" y="575" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2</text>
+<text x="660.821" y="575" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.4</text>
+<text x="721.737" y="575" font-family="Roboto" font-size="18.000000" text-anchor="middle" alignment-baseline="hanging" fill="#000000" fill-opacity="1.000000">2.8</text>
+<text x="435" y="541.446" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.2</text>
+<text x="435" y="495.758" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">1.6</text>
+<text x="435" y="450.071" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2</text>
+<text x="435" y="404.384" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2.4</text>
+<text x="435" y="358.697" font-family="Roboto" font-size="18.000000" text-anchor="end" alignment-baseline="middle" fill="#000000" fill-opacity="1.000000">2.8</text>
+<path d=" M 478.072571 575.000000 L 478.072571 570.000000 M 538.988708 575.000000 L 538.988708 570.000000 M 599.904846 575.000000 L 599.904846 570.000000 M 660.820923 575.000000 L 660.820923 570.000000 M 721.737061 575.000000 L 721.737061 570.000000 M 435.000000 541.445557 L 440.000000 541.445557 M 435.000000 495.758453 L 440.000000 495.758453 M 435.000000 450.071350 L 440.000000 450.071350 M 435.000000 404.384277 L 440.000000 404.384277 M 435.000000 358.697144 L 440.000000 358.697144" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 478.072571 330.000000 L 478.072571 570.000000 M 538.988708 330.000000 L 538.988708 570.000000 M 599.904846 330.000000 L 599.904846 570.000000 M 660.820923 330.000000 L 660.820923 570.000000 M 721.737061 330.000000 L 721.737061 570.000000 M 440.000000 541.445557 L 760.000000 541.445557 M 440.000000 495.758453 L 760.000000 495.758453 M 440.000000 450.071350 L 760.000000 450.071350 M 440.000000 404.384277 L 760.000000 404.384277 M 440.000000 358.697144 L 760.000000 358.697144" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="1.500000" fill-opacity="0"/>
+<path d=" M 447.614502 335.853638 L 599.904846 450.071381 L 752.195190 564.289124" stroke="#1f77b4" stroke-opacity="0.784314" stroke-width="3.000000" fill-opacity="0"/>
 </svg>
