@@ -55,14 +55,14 @@ function remove_tooltip() {
 <circle cx="222" cy="418.3" r="10.69" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 <animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="221.978058;387.305878;628.234009;327.572052;384.399536;331.182983" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="418.266724;313.670258;376.749512;299.872192;375.634399;350.242279" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="10.692101;12.154938;12.249897;16.311298;12.410890;14.316597" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="10.692100;12.154938;12.249897;16.311298;12.410890;14.316597" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#287b8e;#443781;#26ac80;#29798e;#2d6f8e;#1e9a89" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
 <circle cx="391.4" cy="419.8" r="7.689" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 <animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="391.380066;335.673462;559.037354;383.897644;446.737488;322.521454" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="419.825928;421.784576;369.111450;357.065918;258.884735;353.463684" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="7.689374;13.893658;11.311997;12.283941;14.164464;9.751205" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="7.689373;13.893658;11.311997;12.283941;14.164464;9.751205" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#77d052;#32648d;#23888d;#1f958b;#20a485;#228a8d" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
@@ -236,13 +236,13 @@ function remove_tooltip() {
 </circle>
 <circle cx="506.9" cy="336" r="9.444" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 <animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="506.941437;190.872864;522.226562;417.102631;274.894958;357.214935" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="336.041901;247.767593;318.327179;216.805191;387.635437;288.852417" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="336.041901;247.767593;318.327179;216.805176;387.635437;288.852417" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="9.443716;11.246558;11.087656;16.833317;13.816112;13.024168" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#414186;#287b8e;#2cb17d;#30688d;#1e978a;#1f948b" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
 <circle cx="442.6" cy="427.2" r="14.37" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
-<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="442.620300;293.156372;254.842697;432.762695;248.962616;411.020569" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="442.620331;293.156372;254.842697;432.762695;248.962616;411.020569" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="427.212769;436.573914;375.142303;390.066467;290.383850;426.359039" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="14.373040;14.800737;18.231016;17.080896;15.795445;9.292271" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#1e988a;#27ad80;#38b976;#81d34c;#20a485;#25848d" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
@@ -494,9 +494,9 @@ function remove_tooltip() {
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
 <circle cx="468.7" cy="145.1" r="7.861" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
-<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="468.693054;250.007065;506.155701;459.816101;480.838043;463.299255" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="468.693054;250.007065;506.155701;459.816132;480.838043;463.299255" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="145.141144;329.186920;424.736664;338.894592;383.836792;370.871796" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="7.861058;16.518923;15.730028;13.691284;13.989413;11.913640" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="7.861057;16.518923;15.730028;13.691284;13.989413;11.913640" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#3d4b89;#22a784;#23888d;#23a983;#218c8d;#1fa187" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
@@ -517,7 +517,7 @@ function remove_tooltip() {
 <circle cx="297" cy="265.1" r="10.88" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 <animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="296.951843;411.446960;322.837952;293.765564;320.658875;387.772247" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="265.076172;268.750702;353.313232;321.740295;289.689514;372.060638" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="10.882510;18.021446;9.998323;11.613638;10.026209;11.995844" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="10.882510;18.021446;9.998323;11.613638;10.026208;11.995844" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#287a8e;#1fa187;#23a983;#1fa187;#3c4d8a;#1fa187" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
@@ -636,7 +636,7 @@ function remove_tooltip() {
 <circle cx="704.4" cy="318.3" r="13" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 <animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="704.390198;478.468445;317.036621;448.939575;377.740936;395.951385" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="318.279297;212.476074;248.254074;272.239807;289.403015;314.129517" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="13.002161;12.211683;12.505710;15.773739;12.568764;19.353310" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="13.002161;12.211683;12.505710;15.773737;12.568764;19.353310" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#2b728e;#1e988a;#287a8e;#30668d;#79d151;#208f8c" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 </circle>
@@ -663,7 +663,7 @@ function remove_tooltip() {
 </circle>
 <circle cx="412.8" cy="415.6" r="13.91" fill="#1f77b4" fill-opacity="0.784314" stroke="#ffffff" stroke-opacity="1.000000" stroke-width="0.000000">
 <animate attributeName="cx" repeatCount="indefinite" begin ="0s" dur="1.5s" values="412.779205;522.316467;449.523193;269.889557;431.756439;442.341583" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
-<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="415.577911;293.417633;243.689194;265.517334;446.130859;298.241852" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
+<animate attributeName="cy" repeatCount="indefinite" begin ="0s" dur="1.5s" values="415.577911;293.417603;243.689194;265.517334;446.130859;298.241852" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="r" repeatCount="indefinite" begin ="0s" dur="1.5s" values="13.905333;13.496844;10.909176;17.961020;10.609340;11.314321" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill" repeatCount="indefinite" begin ="0s" dur="1.5s" values="#38b976;#45bf6f;#20918c;#2bb07e;#25848d;#208f8c" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
 <animate attributeName="fill-opacity" repeatCount="indefinite" begin ="0s" dur="1.5s" values="1.000000;1.000000;1.000000;1.000000;1.000000;1.000000" keyTimes="0.000000;0.200000;0.400000;0.600000;0.800000;1.000000"/>
